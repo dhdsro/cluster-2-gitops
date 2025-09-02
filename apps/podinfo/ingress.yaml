@@ -8,7 +8,7 @@ metadata:
     kubernetes.io/ingress.class: traefik
 spec:
   rules:
-    - host: dhd-cluster.test
+    - host: dhd-cloud.test
       http:
         paths:
           - path: /
