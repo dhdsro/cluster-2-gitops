@@ -8,7 +8,7 @@ metadata:
     kubernetes.io/ingress.class: traefik
 spec:
   rules:
-    - host: podinfo.127.0.0.1.nip.io
+    - host: podinfo.10.0.12.126.nip.io
       http:
         paths:
           - path: /
