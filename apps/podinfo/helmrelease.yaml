@@ -27,3 +27,4 @@ spec:
     - kind: Secret
       name: podinfo-values
       valuesKey: values.yaml
+      optional: false
