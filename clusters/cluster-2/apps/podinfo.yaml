@@ -17,8 +17,3 @@ spec:
     provider: sops
     secretRef:
       name: sops-age
-  healthChecks:
-    - apiVersion: v1
-      kind: Secret
-      name: podinfo-values
-      namespace: podinfo
