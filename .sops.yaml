@@ -1,0 +1,7 @@
+creation_rules:
+  - path_regex: apps/.*/values-.*\.enc\.yaml
+    encrypted_regex: '^(data|stringData)$'
+    age: 'age16f57mdcye3txnjuk3kuhquvfvzwl2gqlqzalwh0082z78znsualsuwv89j'
+  - path_regex: .*\.(enc\.yaml|sops\.yaml)$
+    encrypted_regex: '^(data|stringData)$'
+    age: 'age16f57mdcye3txnjuk3kuhquvfvzwl2gqlqzalwh0082z78znsualsuwv89j'
