@@ -25,4 +25,4 @@ spec:
     service:
       type: ClusterIP
     ui:
-      message: "Hello from Flux on cluster-2"
+      message: "Hello from Flux (v2)"
